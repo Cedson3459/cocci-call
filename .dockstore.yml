@@ -3,8 +3,6 @@ workflows:
   - subclass: Nextflow
     name: cocci-call
     primaryDescriptorPath: /main.nf
-    testParameterFiles:
-      - /tests/test.config
     descriptorType: NFL
-    gitUrl: git@github.com:Cedson3459/cocci-call.git
-    defaultVersion: v1.0.1
+    gitUrl: https://github.com/Cedson3459/cocci-call.git
+    defaultVersion: main
