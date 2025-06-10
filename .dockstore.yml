@@ -5,4 +5,4 @@ workflows:
     primaryDescriptorPath: /main.nf
     descriptorType: NFL
     gitUrl: https://github.com/Cedson3459/cocci-call.git
-    defaultVersion: main
+    defaultVersion: v1.0.0
